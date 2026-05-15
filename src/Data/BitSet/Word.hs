@@ -68,7 +68,7 @@ module Data.BitSet.Word
     , fromList
     ) where
 
-import Prelude hiding (null, map, filter, foldr)
+import Prelude hiding (null, map, filter, foldr, foldl')
 
 import Data.Word (Word)
 
